@@ -1,7 +1,30 @@
 # Digit-Recognition
 Simple digit recognition application using a Keras model and the MNIST dataset.
 
-## Installation
+## Installation of Packages
+These can be done from the terminal or from the Python Packages section in PyCharm
+### Numpy
+```
+pip install numpy
+```
+### Pandas 
+```
+pip install pandas
+```
+### Keras 
+```
+pip install keras
+```
+### Tensorflow 
+```
+pip install tensorflow
+```
+### Sklearn
+```
+pip install scikit-learn
+```
+
+## Importing Packages
 ### Numpy
 ```
 import numpy as np
@@ -20,19 +43,19 @@ Keras models.Sequential and layers.Dense are used to build the neural network
 ```
 from keras.utils import to_categorical
 ```
-to_categorical function is used to one-hot the target label
+Function to_categorical is used to one-hot the target label
 ### Sklearn
 ```
 from sklearn.model_selection import train_test_split
 ```
-train_test_split function is used to split the dataset in testing and training features and labels
+Function train_test_split is used to split the dataset in testing and training features and labels
 ### Time 
 ```
 import time
 ```
-used to get the running time of creating and compiling the model  
+Used to get the running time of creating and compiling the model  
 ### OS 
 ```
 import os
 ```
-used to get rid of some tensorflow warnings
+Used to get rid of some tensorflow warnings
