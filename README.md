@@ -1,8 +1,8 @@
 # Digit-Recognition
 Simple digit recognition application using a Keras model and the MNIST dataset.
 
-Installation
-  import numpy as np<br />
+## Installation
+  import numpy as np
   import pandas as pd
 -> the csv files are read using pandas
   from keras.models import Sequential 
