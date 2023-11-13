@@ -6,16 +6,33 @@ Simple digit recognition application using a Keras model and the MNIST dataset.
 ```
 import numpy as np
 ```
-### import pandas as pd
+### Pandas 
+```
+import pandas as pd
+```
 The csv files are read using pandas
-### from keras.models import Sequential 
-### from keras.layers import Dense
+### Keras 
+```
+from keras.models import Sequential 
+from keras.layers import Dense
+```
 Keras models.Sequential and layers.Dense are used to build the neural network
-### from keras.utils import to_categorical
+```
+from keras.utils import to_categorical
+```
 to_categorical function is used to one-hot the target label
-### from sklearn.model_selection import train_test_split
+### Sklearn
+```
+from sklearn.model_selection import train_test_split
+```
 train_test_split function is used to split the dataset in testing and training features and labels
-### import time
+### Time 
+```
+import time
+```
 used to get the running time of creating and compiling the model  
-### import os
+### OS 
+```
+import os
+```
 used to get rid of some tensorflow warnings
