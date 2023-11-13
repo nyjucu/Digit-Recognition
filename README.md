@@ -2,7 +2,7 @@
 Simple digit recognition application using a Keras model and the MNIST dataset.
 
 Installation
-  import numpy as np
+  import numpy as np__
   import pandas as pd
 -> the csv files are read using pandas
   from keras.models import Sequential 
