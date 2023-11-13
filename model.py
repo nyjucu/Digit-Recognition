@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
     print("Model created...")
 
-    model.fit(X_train, y_train, epochs=16, batch_size=128, verbose=1)
+    model.fit(X_train, y_train, epochs=8, batch_size=128, verbose=1)
 
     _, accuracy = model.evaluate(X_test, y_test)
 
@@ -48,4 +48,4 @@ if __name__ == '__main__':
     model.save("model.keras")
     print("Model saved...")
 
-    # Final accuracy of approx. 95.5%
+    # Final accuracy of approx. 97.5%
