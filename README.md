@@ -2,9 +2,9 @@
 Simple digit recognition application using a Keras model and the MNIST dataset.
 
 ## Installation
-  import numpy as np
-  import pandas as pd
--> the csv files are read using pandas
+  ### import numpy as np
+  ### import pandas as pd
+### -> the csv files are read using pandas
   from keras.models import Sequential 
   from keras.layers import Dense
 -> keras models.Sequential and layers.Dense are used to build the neural network
