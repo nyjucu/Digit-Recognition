@@ -77,13 +77,13 @@ import os
 ```
 Used to get rid of some tensorflow warnings
 
-### Using the application
+# Using the application
 The UI is built entirely in the Tkinter library.
 
-# Current File
+## Current File
 To start the application the current file needs to be draw.py. If you want to run the model (only if you download the MNIST digits dataset) the current file must be model.py
 
-# The Widgets
+## The Widgets
 There are two white labels, one on the top of the window and one under it. The top one will show the resized image (from 350x450px to 28x28px) that the model uses to predict the digit.
 The four buttons - BRUSH, ERASE, CLEAR, SAVE - do exactly what the name suggest.
 The slider sets the size of the brush and the eraser.
