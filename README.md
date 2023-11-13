@@ -2,10 +2,10 @@
 Simple digit recognition application using a Keras model and the MNIST dataset.
 
 
-## About The Project
-# Purpose 
+# About The Project
+## Purpose 
 The main purpose of this project is for the user to see the digit predicted by a neural network in real time. 
-# Difficulty
+## Difficulty
 This project is meant for begginer AI/ML programmers that want to solve their first image classification problem.
 
 ## Built With
