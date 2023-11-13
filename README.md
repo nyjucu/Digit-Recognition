@@ -9,7 +9,14 @@ The main purpose of this project is for the user to see the digit predicted by a
 This project is meant for begginer AI/ML programmers that want to solve their first image classification problem.
 
 ## Built With
-Python language and Tensorflow framework
+Built in Python language using the Tensorflow framework
+
+### Downloading The MNIST Digits Dataset
+The model is trained on the MNIST digits dataset. To download the dataset go tho the link below and follow the steps I provide.
+Link to the MNIST dataset: kaggle.com/competitions/digit-recognizer/data
+1. Scroll down and download the train.csv file
+2. Copy it in the project file
+3. Rename it to digits.csv
 
 ### Installation of Packages
 These can be done from the terminal or from the Python Packages section in PyCharm
@@ -69,3 +76,14 @@ OS
 import os
 ```
 Used to get rid of some tensorflow warnings
+
+### Using the application
+The UI is built entirely in the Tkinter library.
+
+# Current File
+To start the application the current file needs to be draw.py. If you want to run the model (only if you download the MNIST digits dataset) the current file must be model.py
+
+# The Widgets
+There are two white labels, one on the top of the window and one under it. The top one will show the resized image (from 350x450px to 28x28px) that the model uses to predict the digit.
+The four buttons - BRUSH, ERASE, CLEAR, SAVE - do exactly what the name suggest.
+The slider sets the size of the brush and the eraser.
